@@ -18,7 +18,7 @@
 ### Project Links
 * Website - https://opz.com
 * Whitepaper - https://whitepaper.opz.com
-* Twitter - https://twitter.com/OPZ_Official
+* X (formerly Twitter) - https://x.com/OPZ_Official
 * Telegram - https://t.me/OPZ_Official
 * LinkedIn - https://www.linkedin.com/company/opzofficial
 
