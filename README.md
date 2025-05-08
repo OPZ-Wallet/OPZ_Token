@@ -16,8 +16,8 @@
 `import "@openzeppelin/contracts/token/ERC20/ERC20.sol";`<br>
 
 ### Project Links
-* Website - https://opz.com
-* Whitepaper - https://whitepaper.opz.com
+* Website - https://opz.io
+* Whitepaper - https://whitepaper.opz.io
 * X (formerly Twitter) - https://x.com/OPZ_Official
 * Telegram - https://t.me/OPZ_Official
 * LinkedIn - https://www.linkedin.com/company/opzofficial
