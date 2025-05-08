@@ -70,7 +70,7 @@ interface IERC721Errors {
     error ERC721NonexistentToken(uint256 tokenId);
 
     /**
-     * @dev Indicates an error related to the ownership over a particular token. Used in transfers.
+     * @dev Indicates an error related to ownership of a particular token. Used in transfers.
      * @param sender Address whose tokens are being transferred.
      * @param tokenId Identifier number of a token.
      * @param owner Address of the current owner of a token.
@@ -220,7 +220,7 @@ interface IERC20 {
     event Approval(address indexed owner, address indexed spender, uint256 value);
 
     /**
-     * @dev Returns the value of tokens in existence.
+     * @dev Returns the value of tokens that exist.
      */
     function totalSupply() external view returns (uint256);
 
@@ -329,7 +329,7 @@ pragma solidity ^0.8.20;
  * this function so it returns a different value.
  *
  * We have followed general OpenZeppelin Contracts guidelines: functions revert
- * instead returning `false` on failure. This behavior is nonetheless
+ * instead of returning `false` on failure. This behavior is nonetheless
  * conventional and does not conflict with the expectations of ERC20
  * applications.
  *
@@ -602,7 +602,7 @@ abstract contract ERC20 is Context, IERC20, IERC20Metadata, IERC20Errors {
     }
 
     /**
-     * @dev Updates `owner` s allowance for `spender` based on spent `value`.
+     * @dev Updates `owner's allowance for `spender` based on spent `value`.
      *
      * Does not update the allowance value in case of infinite allowance.
      * Revert if not enough allowance is available.
